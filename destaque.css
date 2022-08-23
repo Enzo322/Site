@@ -1,0 +1,23 @@
+body{
+    background-color: #08073E;
+    color: floralwhite;
+    font-family: sans-serif;
+}
+div{
+    padding: 5px;
+}
+h1{
+    text-align: center;
+    color: white;
+    max-width: 600px;
+    margin: auto;
+}
+p{
+    color: white;
+    max-width: 600px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+    width: 25%;
+}

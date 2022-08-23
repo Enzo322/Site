@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de usuário</title>
+    <link rel="stylesheet" type="text/css" href="cadastro.css">
+    
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h2>Cadastro</h2>
+        </div>
+
+        <form id="form" class="form">
+            <div class="form-control"><!--Nome-->
+                <label for="name">Nome:</label>
+                <input type="text" id="username" placeholder="Digite seu nome:">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle aa"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control"><!--email-->
+                <label for="email">email:</label>
+                <input type="text" id="email" placeholder="Digite seu email:">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle aa"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control"><!--senha-->
+                <label for="password">Senha:</label>
+                <input type="password" id="password" placeholder="Digite sua senha:">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle aa"></i>
+                <small>Mensagem de erro</small>
+            </div> 
+
+            <div class="form-control"><!--confimar senha-->
+                <label for="Confirmation">Confirme sua senha:</label>
+                <input type="password" id="confirmation" placeholder="Confirme sua senha:">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle aa"></i>
+                <small>Mensagem de erro</small>
+            </div> 
+
+            <button type="submit">Enviar</button>
+            <button type="reset" class="botao2">cancelar</button>
+
+        </form>
+
+    </div>
+    <script src="https://kit.fontawesome.com/899dc4680e.js" 
+    crossorigin="anonymous"></script>
+    <script src="./cadastro.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+</body>
+
+</html>
